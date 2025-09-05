@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import UseStates from './components/UseStates'
 import UseEffects from './components/UseEffects'
+import UseRefs from './components/UseRefs'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
     {/* <UseStates/> */}
-    <UseEffects/>
+    {/* <UseEffects/> */}
+    <UseRefs/>
     </>
   )
 }
