@@ -23,6 +23,7 @@ const UseStates = () => {
 
   return (
     <>
+    <p>this is ample for chnage test in github</p>
       <h1>Hello , I am Himanshu Singh</h1>
       <p>I love {color} color.</p>
       <button type="button" onClick={changeColor}>{buttonColor}</button>
@@ -30,7 +31,6 @@ const UseStates = () => {
       <h1>My {car.brand}</h1>
       <p>It is {car.color} {car.model} from {car.year}</p>
       <button type="button" onClick={handleData}>change data</button>
-
     </>
   )
 }
