@@ -23,7 +23,6 @@ const UseStates = () => {
 
   return (
     <>
-    <p>this is ample for chnage test in github</p>
       <h1>Hello , I am Himanshu Singh</h1>
       <p>I love {color} color.</p>
       <button type="button" onClick={changeColor}>{buttonColor}</button>
