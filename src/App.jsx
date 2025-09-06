@@ -7,6 +7,7 @@ import UseEffects from './components/UseEffects'
 import UseRefs from './components/UseRefs'
 import UseMemo from './components/UseMemo'
 import Header from './components/Header'
+import UseReducers from './components/useReducer'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,11 +20,13 @@ function App() {
     {/* <UseEffects/> */}
     {/* <UseRefs/> */}
     {/* <UseMemo/> */}
-    <div>
+    {/* <div> // For understanding of useCallbak
        <Header newfn={newfn}/>
        <h1>count : {count}</h1>
        <button onClick={()=>setCount((prev)=>prev+1)}>click to increase</button>
-    </div>
+    </div> */}
+
+    <UseReducers/>
     </>
   )
 }
