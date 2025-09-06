@@ -8,6 +8,7 @@ import UseRefs from './components/UseRefs'
 import UseMemo from './components/UseMemo'
 import Header from './components/Header'
 import UseReducers from './components/useReducer'
+import UseLayoutEffects from './components/UseLayoutEffects'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,7 +27,8 @@ function App() {
        <button onClick={()=>setCount((prev)=>prev+1)}>click to increase</button>
     </div> */}
 
-    <UseReducers/>
+    {/* <UseReducers/> */}
+    <UseLayoutEffects/>
     </>
   )
 }
