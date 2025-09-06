@@ -5,6 +5,7 @@ import './App.css'
 import UseStates from './components/UseStates'
 import UseEffects from './components/UseEffects'
 import UseRefs from './components/UseRefs'
+import UseMemo from './components/UseMemo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,8 @@ function App() {
     <>
     {/* <UseStates/> */}
     {/* <UseEffects/> */}
-    <UseRefs/>
+    {/* <UseRefs/> */}
+    <UseMemo/>
     </>
   )
 }
